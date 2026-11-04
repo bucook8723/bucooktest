@@ -1,8 +1,8 @@
 name: bucook jobs
 
 on:
-  schedule:
-    - cron: '12,22,32 0 * * *' 
+#  schedule:
+#    - cron: '12,22,32 0 * * *' 
   workflow_dispatch: # 保持保留，方便手动测试
 
 concurrency:
